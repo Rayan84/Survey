@@ -1,0 +1,28 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    color: white;
+}
+
+body{
+    background: url(../images/women.jpg) rgb(151, 230, 212);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+main{
+    width: 60%;
+    margin: auto;
+}
+
+#title, #description{
+    text-align: center;
+}
+
+form{
+    background-color: rgba(49, 76, 124, 0.4);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+}
