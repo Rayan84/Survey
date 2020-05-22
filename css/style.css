@@ -11,18 +11,68 @@ body{
     background-blend-mode: multiply;
 }
 
+
+
+#description{
+  margin-top: 5px;
+  font-style: italic;
+}
 main{
     width: 60%;
     margin: auto;
+    font-size: 20px;
+    margin-top: 40px;
 }
 
 #title, #description{
     text-align: center;
 }
+ .block {
+  display: block;
+}
+
+.formGroup{
+  margin-bottom: 15px;
+}
+
+.formGroup > input, .formGroup > select, .formGroup > textarea{
+  width: 100%;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+input[type="checkbox"],  input[type="radio"]{
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+input[type="submit"]{
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: green;
+  border-radius: 5px;
+  font-size: 20px;
+  border-style: none;
+  text-transform: capitalize;
+}
+
+
+.formGroup > label{
+  margin-bottom: 5px;
+}
+
+option{
+  color: black;
+}
 
 form{
     background-color: rgba(49, 76, 124, 0.4);
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px;
     margin-top: 40px;
 }

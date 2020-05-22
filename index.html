@@ -14,23 +14,23 @@
         Thank you for taking the time to help us improve the platform
       </p>
     <form id="survey-form">
-      <div>
-      <label id="name-label">Name</label>
+      <div class="formGroup">
+      <label id="name-label" class="block">Name</label>
         <input id="name" type="text" placeholder="Enter your name" required>
       </div>
 
-      <div>
-      <label id="email-label">Email</label>
+      <div class="formGroup">
+      <label id="email-label" class="block">Email</label>
         <input id="email" type="email" placeholder="Enter your email" required>
       </div>
 
-      <div>
-      <label id="number-label">Age (optional)</label>
+      <div class="formGroup">
+      <label id="number-label" class="block">Age (optional)</label>
         <input id="number" type="number" placeholder="Enter your age" min="5" max="80">
       </div>
 
-      <div>
-      <label>Which option best describes your current role?</label>
+      <div class="formGroup">
+      <label class="block">Which option best describes your current role?</label>
         <select id="dropdown">
           <option disabled selected>Select current role</option>
           <option>Student</option>
@@ -41,8 +41,8 @@
         </select>
       </div>
 
-      <div>
-      <label>Would you recommend freeCodeCamp to a friend?</label>
+      <div class="formGroup">
+      <label class="block">Would you recommend freeCodeCamp to a friend?</label>
         <div>
           <input name="recommend" id="recommend1" type="radio" value="1">
           <label for="recommend1">Definitely</label>
@@ -57,8 +57,8 @@
         </div>
       </div>
 
-      <div>
-        <label>What is your favorite feature of freeCodeCamp?</label>
+      <div class="formGroup">
+        <label class="block">What is your favorite feature of freeCodeCamp?</label>
           <select id="role">
             <option disabled selected>Select an option</option>
             <option>Challenges</option>
@@ -68,7 +68,7 @@
           </select>
         </div>
 
-        <div>
+        <div class="formGroup">
          <p>What would you like to see improved? (Check all that apply)</p>
         <div>
         <input type="checkbox" value="1"><label>Front-end Projects</label>
@@ -108,10 +108,9 @@
 </div>
     </div>
 
-    <div>
-      <label>Any comments or suggestions?</label>
-      <textarea placeholder="Enter your comment here...">
-      </textarea>
+    <div class="formGroup">
+      <label class="block">Any comments or suggestions?</label>
+      <textarea rows="6" placeholder="Enter your comment here..."></textarea>
     </div>
 
       <input id="submit" type="submit" value="submit">
